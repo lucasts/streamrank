@@ -7,6 +7,7 @@ import { supabase } from "@/lib/supabase";
 import Header from "@/components/Header";
 import Leaderboard from "@/components/Leaderboard";
 import LikeDislike from "@/components/LikeDislike";
+import QuestionnairePrompt from "@/components/QuestionnairePrompt";
 
 interface Video {
   id: string;
@@ -100,6 +101,7 @@ export default function PlayerPage() {
 
   return (
     <div className="min-h-screen bg-base-100">
+      <QuestionnairePrompt />
       <Header />
       <div className="flex flex-col lg:flex-row gap-6 p-6 max-w-7xl mx-auto">
         <main className="flex-1">

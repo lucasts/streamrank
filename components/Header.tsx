@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 
-const QUESTIONNAIRE_URL = "#"; // placeholder — substituir pela URL real do questionário
+const QUESTIONNAIRE_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeOj1g55UkOQjGlYKoxHKw8cW7XfzH1LD2Jg1V_qDFJ5LnyjQ/viewform";
 
 export default function Header() {
   const [displayName, setDisplayName] = useState("");
